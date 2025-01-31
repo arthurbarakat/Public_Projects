@@ -1,0 +1,11 @@
+This project is the result of my main research paper, which is currently under submission.
+
+In this project, we show that we can train an algorithm, called XGBoost, to predict the number of mental high effort (MHE), and the sensitivity to mental effort (kEm).
+
+The data used are metabolites acquired in the brain in the dorsomedial prefrontal cortex (dmPFC) and anterior insula (AI).
+
+After preparing the datasets, we initialize the algorithm and used to package, hyperopt and SHAP. Hyperopt helps us select optimal hyperparameters and SHAP plots to better understand XGBOOST results
+
+This result is mainly focused on the effort perception of the mental part of our experiment, and not the physical part.
+
+Finally, we show that with just 3 metabolites, we can still build a strong algorithm, highlighting the crucial role of three molecules: aspartate, lactate and glutamate.
